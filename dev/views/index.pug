@@ -1,0 +1,11 @@
+extends ./shared/_layout.pug
+block title
+  title ePlatform
+block content
+  div.container.index--container
+    div.question-game#app
+      input.question-game__input(placeholder='Ask a question...', v-model="question")
+      button.question-game__button Submit
+      div.question-game__answer
+        p.question-game__answer-text {{ answer }}
+        img.question-game__answer-img(v-bind:src="img")
