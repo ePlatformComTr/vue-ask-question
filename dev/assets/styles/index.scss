@@ -13,28 +13,6 @@
       width: calc(100% + 30px);
     }
   }
-  &__button{
-    width: 100px;
-    padding: 15px;
-    float: right;
-    background-color: #58585A;
-    color: #fff;
-    margin: 15px 0;
-    font-size: 14px;
-    text-align: center;
-    border-radius: 5px;
-    border: solid 1px #58585A;
-    text-transform: uppercase;
-    font-family: Ubuntu;
-    &:focus, &:active{
-      outline: none;
-    }
-    transition: background-color .4s ease;
-    &:hover{
-      background-color: #38383A;
-      cursor: pointer;
-    }
-  }
   &__answer{
       &:before, &:after{
         width: 100%;
